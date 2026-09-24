@@ -1,0 +1,45 @@
+{
+  "name": "image-dimensions-checker",
+  "version": "1.0.0",
+  "description": "Check image dimensions across a built site: find every img without width and height, or with the wrong size, and get the exact fix. Stops layout shift (CLS).",
+  "type": "module",
+  "bin": {
+    "image-dimensions-checker": "bin/image-dimensions-checker.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "image-dimensions",
+    "check-image-dimensions",
+    "image-size",
+    "img",
+    "width-height",
+    "cls",
+    "cumulative-layout-shift",
+    "core-web-vitals",
+    "lighthouse",
+    "seo",
+    "web-performance",
+    "cli"
+  ],
+  "homepage": "https://aistrikeforce.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oussch702/image-dimensions-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oussch702/image-dimensions-checker/issues"
+  },
+  "author": "Oussama Chicha (https://aistrikeforce.com)",
+  "license": "MIT"
+}
