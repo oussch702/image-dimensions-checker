@@ -5,6 +5,8 @@
 ![Zero dependencies](https://img.shields.io/badge/dependencies-0-2ea44f)
 [![MIT license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
+![Stop your pages from jumping. image-dimensions-checker finds every image without width and height, or with the wrong shape, and prints the exact fix.](assets/launch.png)
+
 Check image dimensions across a whole site. It finds every `<img>` without a width and height, and every image whose declared size has the wrong shape, then prints the exact attributes to fix it. The result is a page that no longer jumps while it loads.
 
 When an `<img>` has no `width` and `height`, the browser cannot reserve its space before the file arrives, so everything around it moves when it loads. That movement is Cumulative Layout Shift, one of Google's Core Web Vitals. A declared size with the wrong shape does the same thing more quietly: the browser reserves a box, the real image needs a different one, and the page moves anyway.
