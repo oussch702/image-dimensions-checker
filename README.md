@@ -13,6 +13,10 @@ When an `<img>` has no `width` and `height`, the browser cannot reserve its spac
 
 We hit both on our own site. Our [case study pages](https://aistrikeforce.com/case-studies/digital-product-funnel) show screenshots with aspect ratios from 1:1 to nearly 1:8, and a shared fallback had given every one of them the same landscape box. We fixed it with a small script that reads the real sizes from the files. This repository is that script, plus the check we wanted first: one command that lists every image to fix in a built site.
 
+## See it in under a minute
+
+https://github.com/user-attachments/assets/5aff76e2-faa1-40cb-a246-68db1d9a987d
+
 ## Quick start
 
 ```bash
